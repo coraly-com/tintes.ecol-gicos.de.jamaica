@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecotintes - U.E. Chordeleg</title>
+    <style>
+        :root { --color-principal: #720e1e; --color-oscuro: #1a1a1a; --color-claro: #f4f4f4; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; background: var(--color-claro); color: #333; }
+        header { background: var(--color-principal); color: white; padding: 50px 20px; text-align: center; }
+        nav { background: var(--color-oscuro); padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; text-transform: uppercase; font-size: 0.8em; }
+        section { padding: 40px 10%; }
+        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-bottom: 40px; }
+        h1 { margin: 0; font-size: 2.2em; text-transform: uppercase; letter-spacing: 2px; }
+        h2 { color: var(--color-principal); border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 0; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: center; }
+        img { width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s; cursor: pointer; }
+        img:hover { transform: scale(1.02); }
+        .badge { background: var(--color-principal); color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.8em; font-weight: bold; display: inline-block; margin-bottom: 10px; }
+        .equipo-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; text-align: center; }
+        .miembro { background: #f9f9f9; padding: 15px; border-radius: 10px; min-width: 150px; }
+        footer { background: var(--color-oscuro); color: white; text-align: center; padding: 30px; font-size: 0.9em; }
+        .insta-link { text-decoration: none; color: #e1306c; font-size: 0.8em; font-weight: bold; display: block; margin-top: 5px; }
+        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <p style="margin-bottom: 10px; opacity: 0.9;">Unidad Educativa Chordeleg</p>
+    <h1>PROYECTO ECOTINTES</h1>
+    <p>Experimentación con Pigmentos de <i>Hibiscus sabdariffa</i></p>
+</header>
+
+<nav>
+    <a href="#intro">Inicio</a>
+    <a href="#metodos">Metodología</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#equipo">Equipo</a>
+</nav>
+
+<section id="intro">
+    <div class="card grid">
+        <div>
+            <h2>¿Qué es Ecotintes?</h2>
+            <p>Es una iniciativa enfocada en la creación de <b>tintes ecológicos</b> a partir de la flor de Jamaica. Buscamos alternativas sostenibles que reduzcan el impacto químico en el teñido de textiles, combinando métodos tradicionales con procesos científicos de laboratorio.</p>
+        </div>
+        <img src="./Proyecto Jamaica/foto_tinte.jpg.jpeg" alt="Proceso de tinte">
+    </div>
+</section>
+
+<section id="metodos">
+    <div class="card">
+        <span class="badge">Nivel Científico</span>
+        <h2>Proceso de Laboratorio</h2>
+        <div class="grid">
+            <ul>
+                <li><b>Curado:</b> Se utilizó leche para tratar el algodón y mejorar la absorción de pigmento.</li>
+                <li><b>Control Térmico:</b> Hervido constante hasta alcanzar los 90°C.</li>
+                <li><b>Química Aplicada:</b> Mezcla de colorante con <b>sulfato de zinc o cobre</b> como mordiente.</li>
+                <li><b>Lavado:</b> Proceso de purificación final tras el hervor.</li>
+            </ul>
+            <img src="./Proyecto Jamaica/foto_lab.jpg.jpeg" alt="Laboratorio">
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="badge">Nivel Artesanal</span>
+        <h2>Método Casero</h2>
+        <div class="grid">
+            <img src="./Proyecto Jamaica/foto_casero.jpg.jpeg" alt="Camiseta casera">
+            <ul>
+                <li><b>Preparación:</b> Lavado rápido de la tela solo con agua.</li>
+                <li><b>Inmersión:</b> Reposo en agua caliente con sal por 20 minutos.</li>
+                <li><b>Coloración:</b> Baño de color con concentrado de Jamaica.</li>
+                <li><b>Efectividad:</b> El <b>vinagre</b> resultó ser el mejor aliado para que el color no se salga.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="resultados">
+    <div class="card grid">
+        <div>
+            <h2>Resultados Obtenidos</h2>
+            <p>Se logró un tinte vibrante y de origen 100% natural. En las pruebas caseras con vinagre, el color resistió excelentemente los lavados. En laboratorio, el curado con leche permitió una gran intensidad inicial, aunque el acabado final fue más opaco comparado con el método del vinagre.</p>
+        </div>
+        <img src="./Proyecto Jamaica/foto_resultado.jpg.jpeg" alt="Muestras finales">
+    </div>
+</section>
+
+<section id="equipo">
+    <div class="card">
+        <h2 style="text-align: center;">Autores del Proyecto</h2>
+        <p style="text-align: center;"><b>2do Bachillerato - Paralelo "C"</b></p>
+        <div class="equipo-grid">
+            <div class="miembro">
+                👤 <b>Coraly Gómez</b><br>
+                <small>Líder de Proyecto</small>
+                <a href="https://www.instagram.com/sabri.xvii" target="_blank" class="insta-link">📸 Instagram Personal</a>
+            </div>
+            <div class="miembro">👤 <b>Pablo Sumba</b></div>
+            <div class="miembro">👤 <b>Marcelo Zúñiga</b></div>
+            <div class="miembro">👤 <b>Steven Suárez</b></div>
+            <div class="miembro">👤 <b>Bryam Sarango</b></div>
+        </div>
+        
+        <div style="margin-top: 30px; text-align: center;">
+            <a href="https://www.facebook.com/search/top?q=Unidad%20Educativa%20Chordeleg" target="_blank" style="text-decoration: none; color: #3b5998; font-weight: bold;">
+                🔵 Facebook Unidad Educativa Chordeleg
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 - Proyecto Interdisciplinario de Ciencias<br>Chordeleg - Ecuador</p>
+</footer>
+
+</body>
+</html>
